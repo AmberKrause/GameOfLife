@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+    Amber Krause
+	April 28, 2016
+    CISC 131
+
+    Conway's Game of Life.
+-->
+<html lang="en">
+<head>
+<title>Game of Life</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="GameOfLife.js" type="text/javascript"></script>
+<style type="text/css">
+* {border: 0; margin: 0; padding: 0;}
+body {font-family: "Times New Roman", serif; font-size: 12pt;}
+
+.cell
+{
+ border-left: 1px solid black;
+ border-bottom: 1px solid black;
+ float: left;
+ height: .5em;
+ width: .5em;
+}
+
+.newRow
+{
+ clear: left;
+}
+
+.firstRow { border-top: 1px solid black; }
+
+.lastCol { border-right: 1px solid black; }
+
+#page { margin: 2em; }
+</style>
+</head>
+<body>
+	<div id="page">
+		<div id="gameBoard">
+		</div>  <!-- gameBoard -->
+	</div>  <!-- page -->
+</body>
+</html>
