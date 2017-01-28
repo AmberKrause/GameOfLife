@@ -4,4 +4,4 @@ This was a class project I completed during my Spring 2016 semester at the Unive
 
 Conway's Game of Life
 
-Technologies Used: HTML, JavaScript, and TextPad 8
+Technologies Used: HTML, CSS, JavaScript, and TextPad 8
